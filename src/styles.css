@@ -116,8 +116,7 @@
 .sidebar .nav-links .submenu .links_subname {
     color: #fff;
     font-size: 12px;
-    position: relative;
-    left: 25px;
+    margin-left: 50px;
 }
 
 .sidebar .nav-links .log_out {
@@ -412,6 +411,18 @@ nav .search-box .bx-search {
     color: #333;
 }
 
+.menu-summary-container {
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.menu-summary-container .user,
+.menu-summary-container .last-connection {
+    font-size: 22px;
+}
+
 
 /* Responsive Media Query */
 
@@ -452,11 +463,14 @@ nav .search-box .bx-search {
     .sidebar .nav-links .submenu .links_subname {
         color: black;
         font-size: 14px;
-        position: relative;
-        left: -50px;
+        margin-left: 20px;
     }
     .sidebar .nav-links .fa-chevron-down {
         display: none;
+    }
+    .menu-summary-container .user,
+    .menu-summary-container .last-connection {
+        font-size: 12px;
     }
 }
 
@@ -497,11 +511,14 @@ nav .search-box .bx-search {
     .sidebar .nav-links .submenu .links_subname {
         color: black;
         font-size: 14px;
-        position: relative;
-        left: -50px;
+        margin-left: 20px;
     }
     .sidebar .nav-links .fa-chevron-down {
         display: none;
+    }
+    .menu-summary-container .user,
+    .menu-summary-container .last-connection {
+        font-size: 12px;
     }
 }
 
@@ -542,11 +559,14 @@ nav .search-box .bx-search {
     .sidebar .nav-links .submenu .links_subname {
         color: black;
         font-size: 14px;
-        position: relative;
-        left: -50px;
+        margin-left: 20px;
     }
     .sidebar .nav-links .fa-chevron-down {
         display: none;
+    }
+    .menu-summary-container .user,
+    .menu-summary-container .last-connection {
+        font-size: 12px;
     }
 }
 
@@ -587,11 +607,14 @@ nav .search-box .bx-search {
     .sidebar .nav-links .submenu .links_subname {
         color: black;
         font-size: 14px;
-        position: relative;
-        left: -50px;
+        margin-left: 20px;
     }
     .sidebar .nav-links .fa-chevron-down {
         display: none;
+    }
+    .menu-summary-container .user,
+    .menu-summary-container .last-connection {
+        font-size: 12px;
     }
 }
 
@@ -632,11 +655,14 @@ nav .search-box .bx-search {
     .sidebar .nav-links .submenu .links_subname {
         color: black;
         font-size: 14px;
-        position: relative;
-        left: -50px;
+        margin-left: 20px;
     }
     .sidebar .nav-links .fa-chevron-down {
         display: none;
+    }
+    .menu-summary-container .user,
+    .menu-summary-container .last-connection {
+        font-size: 12px;
     }
 }
 
@@ -677,10 +703,19 @@ nav .search-box .bx-search {
     .sidebar .nav-links .submenu .links_subname {
         color: black;
         font-size: 14px;
-        position: relative;
-        left: -50px;
+        margin-left: 20px;
     }
     .sidebar .nav-links .fa-chevron-down {
         display: none;
+    }
+    .sidebar .menu-summary-container {
+        display: grid;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .menu-summary-container .user,
+    .menu-summary-container .last-connection {
+        font-size: 12px;
     }
 }
