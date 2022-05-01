@@ -519,4 +519,7 @@ nav .search-box .bx-search {
         font-size: 14px;
         margin: 0 auto;
     }
+    .sidebar .nav-links .fa-chevron-down {
+        display: none;
+    }
 }
