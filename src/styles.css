@@ -116,7 +116,8 @@
 .sidebar .nav-links .submenu .links_subname {
     color: #fff;
     font-size: 12px;
-    margin-left: 59px;
+    position: relative;
+    left: 25px;
 }
 
 .sidebar .nav-links .log_out {
